@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="jsonplaceholder-Web/Prod" parallel="tests" thread-count="1">
+    <test name="jsonplaceholder-Web/chrom">
+        <classes>
+            <class name="jsonplaceholder.tests.PostsTests"/>
+            <class name="jsonplaceholder.tests.UsersTests"/>
+        </classes>
+    </test>
+</suite>
